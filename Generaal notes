@@ -1,4 +1,25 @@
 datetime.
 
 обьект даты
+-------------------------
+import random
 
+random_box = ''
+for i in range(1000000):
+  random_box += str(random.randint(1, 3))
+
+print("1=", random_box.count('1'))
+print("2=", random_box.count('2'))
+print("3=", random_box.count('3'))
+
+---------------------------------
+
+for value in 'TRUE':
+
+  score_true += all_name.count(value)
+
+for value in 'LOVE':
+
+  score_love += all_name.count(value)
+
+_________________________________
