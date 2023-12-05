@@ -2,6 +2,9 @@ datetime.
 
 обьект даты
 -------------------------
+# range -генератор чисел
+
+
 import random
 
 random_box = ''
@@ -13,6 +16,7 @@ print("2=", random_box.count('2'))
 print("3=", random_box.count('3'))
 
 ---------------------------------
+# перебор в цикле строк : подсчет значений в строке
 
 for value in 'TRUE':
 
