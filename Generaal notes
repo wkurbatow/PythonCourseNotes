@@ -34,3 +34,14 @@ x,y = divmod(number, 2)
 
 -------------------------------
 
+import random
+
+if (random.randint(0, 1)):
+  print("Heads")
+else:
+  print("Tails")
+
+________________________________
+
+
+
