@@ -108,3 +108,7 @@ x = {
 for i,n in x.items():
   print(i, n)
 _________________
+# методы получения ключей и значений в словарях
+https://docs.python.org/3/library/stdtypes.html?highlight=items#dict-views
+
+__________________________________
