@@ -51,6 +51,40 @@ __________________________________
 
 print(names[random.randint(0, (len(names)-1))],'is going to buy the meal today!')
 
+______________________________
+
+line1 = ["⬜️","️⬜️","️⬜️"]
+line2 = ["⬜️","⬜️","️⬜️"]
+line3 = ["⬜️️","⬜️️","⬜️️"]
+map = [line1, line2, line3]
+print("Hiding your treasure! X marks the spot.")
+position = input() # Where do you want to put the treasure?
+# 🚨 Don't change the code above 👆
+# Write your code below this row 👇
+
+
+# Write your code above this row 👆
+# 🚨 Don't change the code below 👇
+
+x = 'ABC'
+y = '123'
+
+out_x = (x.index(position[0]))
+out_y = (y.index(position[1]))
+
+map[out_y][out_x] = 'X'
+
+line1 = map[0]
+line2 = map[1]
+line3 = map[2]
+
+
+
+print(f"{line1}\n{line2}\n{line3}")
+
+
+_____________________________
+
 
 
 
