@@ -74,9 +74,7 @@ out_y = (y.index(position[1]))
 
 map[out_y][out_x] = 'X'
 
-line1 = map[0]
-line2 = map[1]
-line3 = map[2]
+# при этом меняется значения в одном из line, так как в map ссылки на line
 
 
 
