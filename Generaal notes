@@ -98,5 +98,13 @@ def paint_calc (height,width,cover):
 
 paint_calc(height=test_h, width=test_w, cover=coverage)
  ___________________
+# передать ключ и значение в цикле из словаря
+x = {
+  'qwe':'qwerty',
+  'asd':'asdfgh',
+  'zxc':'zxcvbn'
+}
 
-
+for i,n in x.items():
+  print(i, n)
+_________________
