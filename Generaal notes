@@ -47,6 +47,8 @@ https://docs.python.org/3/tutorial/datastructures.html
 
 __________________________________
 # случайный обьект из списка
+# не забыть импортировать модуль - import random
+
 print(names[random.randint(0, (len(names)-1))],'is going to buy the meal today!')
 
 
