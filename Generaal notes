@@ -82,7 +82,21 @@ print(f"{line1}\n{line2}\n{line3}")
 
 
 _____________________________
+# округление в большую сторону  x= math.ceil(height*width/cover)
+
+# 🚨 Don't change the code below 👇
+test_h = int(input()) # Height of wall (m)
+test_w = int(input()) # Width of wall (m)
+coverage = 5
+
+import math
+
+def paint_calc (height,width,cover):
+  x= math.ceil(height*width/cover)
+  print (f"You'll need {x} cans of paint.")
 
 
+paint_calc(height=test_h, width=test_w, cover=coverage)
+ ___________________
 
 
