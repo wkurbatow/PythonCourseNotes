@@ -1,3 +1,13 @@
+__________________________
+# как работает for в создании списка
+www = [(x, y) for x in [1,2,3] for y in [3,1,4] if x != y]
+yyy = [(x, y) for x in [1,2,3] for y in [3,1,4] ]
+
+print(www)
+print(yyy)
+print(www[2][1])
+
+________________________
 datetime.
 
 обьект даты
