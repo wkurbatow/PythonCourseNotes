@@ -1,3 +1,5 @@
+#справка по работе с файлами текстовыми
+https://www.w3schools.com/python/python_file_handling.asp
 ____ ______________________
 # как работает for в создании списка
 www = [(x, y) for x in [1,2,3] for y in [3,1,4] if x != y]
