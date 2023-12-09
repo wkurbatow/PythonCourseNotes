@@ -1,3 +1,10 @@
+# подсчет символов в строке
+
+text = open('essay.txt','r')
+print(len(text.read()))
+text.close()
+
+____________________________
 # разделение и соединение слов в строке capitalize и join
 
 text = open('essay.txt','r')
