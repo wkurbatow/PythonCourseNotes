@@ -1,3 +1,19 @@
+______________________
+ # проверка на содержание заглавных букв, цифр
+# особая строка  if any(ch.isdigit() for ch in password):
+
+def strength(password):
+    if not (password.islower()):
+        if len(password)>=8:
+            if any(ch.isdigit() for ch in password):
+                return "Strong Password"
+            else:
+                return "Weak Password"
+        else:
+            return "Weak Password"
+    else:
+        return "Weak Password"
+___________________________
 # пример короткой записи операций с переделыванием списков
 
 names = ["john smith", "jay santi", "eva kuki"]
