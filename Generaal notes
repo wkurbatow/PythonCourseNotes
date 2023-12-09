@@ -1,3 +1,13 @@
+#пересоздание текстового списка с использованием цикла внутри списка!!!!
+
+filenames = ["1.dot","2.report","3.text"]
+
+filenames = [ filename.replace(".","-")+'.txt' for filename in filenames]
+
+print(filenames)
+
+
+__________________________________
 # Добавить строку в режиме добавления строки
 справка по ссылке
 https://www.w3schools.com/python/python_file_write.asp
