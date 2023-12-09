@@ -1,3 +1,13 @@
+# Добавить строку в режиме добавления строки
+справка по ссылке
+https://www.w3schools.com/python/python_file_write.asp
+
+new_member = input("Add a new member: ")
+text = open('members.txt','a')
+text.write(f"{new_member}\n")
+text.close()
+________
+
 # подсчет символов в строке
 
 text = open('essay.txt','r')
