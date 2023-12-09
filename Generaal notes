@@ -1,3 +1,7 @@
+#    можно посчитать сумму списка
+
+def foo(list):
+    return sum(list)/len(list)
 ______________________
  # проверка на содержание заглавных букв, цифр
 # особая строка  if any(ch.isdigit() for ch in password):
