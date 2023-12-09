@@ -1,3 +1,16 @@
+# разделение и соединение слов в строке capitalize и join
+
+text = open('essay.txt','r')
+text_r = text.read()
+text_list = text_r.split()
+text_capit =[]
+for word in text_list:
+    text_capit.append(word.capitalize())
+text_capit_r = ' '.join(text_capit)
+print(text_capit_r)
+  
+
+_______________________________________________
 #создание виртуального окружения для vsc
 #   в терминаде набрато команду, нажать yes
 python3 -m venv .venv
