@@ -1,3 +1,16 @@
+# пример короткой записи операций с переделыванием списков
+
+names = ["john smith", "jay santi", "eva kuki"]
+new_names = []
+new_names2 = []
+for old_name in names:
+    new_names.append(' '.join([x.capitalize() for x in old_name.split()]))
+print(new_names)
+
+new_names2 = [' '.join([x.capitalize() for x in old_name.split()]) for old_name in names]
+
+print(new_names2)
+_____________________________
 #пересоздание текстового списка с использованием цикла внутри списка!!!!
 
 filenames = ["1.dot","2.report","3.text"]
