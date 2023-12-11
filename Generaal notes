@@ -1,3 +1,14 @@
+# случайный элемент списка
+
+import random
+
+mylist = ["apple", "banana", "cherry"]
+
+print(random.choice(mylist))
+
+____________________
+
+
 #команда для установки пакета heroes в терминале vsc 
 python3 -m pip install heroes
 
