@@ -1,3 +1,6 @@
+#команда для установки пакета heroes в терминале vsc 
+python3 -m pip install heroes
+
 # можно записывать без переменной цикл for
 for _ in range(4):
     
