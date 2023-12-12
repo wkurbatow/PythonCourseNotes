@@ -1,1 +1,6 @@
+# В файле по строкам имена, код разделяет и создает из них список имен в виде ['Aang', 'Zuko', 'Appa', 'Katara', 'Sokka', 'Momo', 'Uncle', 'Iroh', 'Toph']
+
+with open("./Input/Names/invited_names.txt") as names_file:
+    names = names_file.read().split()
+    print(names)
 
