@@ -2,6 +2,6 @@
 #   в терминаде набрато команду, нажать yes
 1 )python3 -m venv .venv
 2 ) Перезагрузать терминал ( выключить окно и включить заново)
-3 ) можно пользоваться pip install ****
+3 ) pip install --upgrade pip
 
 https://youtu.be/GZbeL5AcTgw?si=fBTEqzdBXm1XRvMu
