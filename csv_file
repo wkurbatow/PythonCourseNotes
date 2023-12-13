@@ -1,0 +1,23 @@
+# импорт и перебор csv 
+# weather_data.csv 
+day,temp,condition
+Monday,12,Sunny
+Tuesday,14,Rain
+Wednesday,15,Rain
+Thursday,14,Cloudy
+Friday,21,Sunny
+Saturday,22,Sunny
+Sunday,24,Sunny
+
+<<<< code >>>>>>
+
+import csv 
+
+with open('weather_data.csv') as content_csv:
+    data = csv.reader(content_csv)
+    temp = [int(x[1]) for x in data if x[1] != 'temp']
+    print(temp)
+
+result : [12, 14, 15, 14, 21, 22, 24]
+
+_____________________________
