@@ -1,3 +1,10 @@
+# создание словаря из построчной итерацией iterrows()
+
+df = pd.read_csv('nato_phonetic_alphabet.csv')
+
+dist_format = {}
+
+dist_format = {row.letter:row.code for (index, row) in df.iterrows()}
 ______________________________________
 
 
