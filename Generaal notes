@@ -1,3 +1,15 @@
+#пример создания словаря из двух списков
+# перед соединением их нужно перевести функцией zip
+sentence = 'dfd fdd erff erfwef wtrvrtv'
+
+x = sentence.split()
+y = [len(n) for n in x]
+
+result = dict(zip(x,y))
+
+print(result)
+__________________
+
 # методы с текстом 
 strip - удаление пробелов
 
