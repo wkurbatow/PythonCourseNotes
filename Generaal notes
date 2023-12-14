@@ -4,6 +4,11 @@ sentence = 'dfd fdd erff erfwef wtrvrtv'
 
 x = sentence.split()
 y = [len(n) for n in x]
+# альтернатива вторая сразу в словарь
+
+result2 = {word:len(word) for word in sentence.split()}
+
+
 
 result = dict(zip(x,y))
 
