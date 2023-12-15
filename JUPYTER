@@ -1,6 +1,8 @@
-jupyter-lab
+Запустить терминал в нужной папке
+потом 
 pip install pandas
 python3 -mpip install matplotlib
+jupyter-lab
 
 
 
