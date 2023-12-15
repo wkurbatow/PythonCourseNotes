@@ -1,3 +1,6 @@
 jupyter-lab
 pip install pandas
+python3 -mpip install matplotlib
+
+
 
