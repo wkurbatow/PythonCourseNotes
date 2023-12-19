@@ -4,4 +4,9 @@
 2 ) Перезагрузать терминал ( выключить окно и включить заново)
 3 ) pip install --upgrade pip
 
+# прочие программы
+
+pip install beautifulsoup4
+pip install requests
+
 https://youtu.be/GZbeL5AcTgw?si=fBTEqzdBXm1XRvMu
