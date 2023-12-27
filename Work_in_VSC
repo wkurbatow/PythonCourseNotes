@@ -2,7 +2,8 @@
 #   в терминаде набрато команду, нажать yes
 1 )python3 -m venv .venv
 2 ) Перезагрузать терминал ( выключить окно и включить заново)
-3 ) pip install --upgrade pip
+3 )source .venv/bin/activate
+4 ) pip install --upgrade pip
 
 # прочие программы
 
